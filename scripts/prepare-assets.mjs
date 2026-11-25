@@ -176,8 +176,8 @@ async function main() {
   )} as const\n`
   await writeFile(resolve(generatedDir, 'projects.ts'), body, 'utf8')
 
-  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url><loc>https://portfolio.pages.dev/</loc><priority>1.0</priority></url>\n${projects
-    .map((p) => `  <url><loc>https://portfolio.pages.dev/work/${p.slug}</loc><priority>0.7</priority></url>`)
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url><loc>https://portfolio-5ld.pages.dev/</loc><priority>1.0</priority></url>\n${projects
+    .map((p) => `  <url><loc>https://portfolio-5ld.pages.dev/work/${p.slug}</loc><priority>0.7</priority></url>`)
     .join('\n')}\n</urlset>\n`
   await writeFile(resolve(root, 'public/sitemap.xml'), sitemap, 'utf8')
 

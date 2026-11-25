@@ -100,7 +100,7 @@ Connect the repository in the Cloudflare dashboard:
 
 `public/_redirects` ensures deep links such as `/work/massar` resolve to the SPA.
 
-Live URL: <https://portfolio.pages.dev/>
+Live URL: <https://portfolio-5ld.pages.dev/>
 
 ---
 

@@ -14,4 +14,4 @@ export const links: { email: string; behance: string; linkedin: string; instagra
   instagram: '',
 }
 
-export const liveUrl = 'https://portfolio.pages.dev/'
+export const liveUrl = 'https://portfolio-5ld.pages.dev/'
