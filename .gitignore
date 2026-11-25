@@ -53,3 +53,11 @@ $RECYCLE.BIN/
 *.zip
 *.rar
 *.7z
+
+# ---------- Vite / TypeScript ----------
+.vite/
+*.tsbuildinfo
+*.local
+coverage/
+playwright-report/
+test-results/

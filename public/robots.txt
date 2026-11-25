@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mooosh800.pages.dev/sitemap.xml
